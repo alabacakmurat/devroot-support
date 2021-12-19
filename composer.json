@@ -1,7 +1,9 @@
 {
 	"name": "devroot/support",
-	"description": "String and Array manipulator",
-	"type": "project",
+	"description": "Advanced Array and String Manipulation Library",
+	"type": "library",
+	"version": "1.0.0",
+	"require": {},
 	"license": "MIT",
 	"authors": [
 		{
@@ -10,16 +12,18 @@
 		}
 	],
 	"minimum-stability": "stable",
-	"require": {},
 	"autoload": {
 		"psr-4": {
 			"Devroot\\Core\\Support\\": "src/"
-		},
-		"files": []
+		}
+	},
+	"require-dev": {
+		"symfony/var-dumper": "^6.0"
 	},
 	"archive": {
 		"exclude": [
-			"docs/"
+			"docs/",
+			"tests/"
 		]
 	}
 }
