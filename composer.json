@@ -1,0 +1,25 @@
+{
+	"name": "devroot/support",
+	"description": "String and Array manipulator",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Murat ALABACAK",
+			"email": "alabacakm@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Devroot\\Core\\Support\\": "src/"
+		},
+		"files": []
+	},
+	"archive": {
+		"exclude": [
+			"docs/"
+		]
+	}
+}
