@@ -2,7 +2,7 @@
 	"name": "devroot/support",
 	"description": "Advanced Array and String Manipulation Library",
 	"type": "library",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"require": {},
 	"license": "MIT",
 	"authors": [
